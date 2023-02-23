@@ -8,6 +8,7 @@ description: Default files for Economobs.
 
 ```yaml
 # Configuration of Economobs. For help, visit https://docs.axelli.net/
+config-version: 5
 
 # What stacker should the plugin look for?
 # Current list: NONE, WILDSTACKER, STACKMOB
@@ -31,6 +32,15 @@ message:
     # This option will affect animations.
     # How long should the hologram stay? This is in seconds.
     duration: 1
+
+# Hook management.
+hooks:
+  # Enable MythicMobs support? Adds the ability to earn money from custom mobs.
+  MythicMobs: true
+  # Enable LevelledMobs support? Adds the ability to add money per level to the base amount (before applying multipliers).
+  LevelledMobs: true
+  # Enable InfernalMobs support? Adds the ability to add money per modifier to the base amount (before applying multipliers).
+  InfernalMobs: true
 
 # Multiplier handling.
 # Down below are configurable multiplier groups.
@@ -78,8 +88,9 @@ world-blacklist:
 prefix: "&8[&aEconomobs&8] "
 command-denied: "&cYou do not have permission to run this command"
 # {0} prints out the money made.
-economy-given: "&7You've earned &f${0} &7by killing this mob."
+# {1} prints out the base value.
+# {2} prints out the multiplier.
+economy-given: "&7You've earned &f${0} &7by killing this mob. &7&o({1} x {2})"
 economy-max: "&cYou can't earn more money due to a maximum balance."
-economy-failed: "&cUnable to add money to your balance."
 economy-toggle: "&7Toggled income messages."
 ```
