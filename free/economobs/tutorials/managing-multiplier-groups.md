@@ -9,12 +9,20 @@ multipliers:
   GROUP_NAME:
     weight: NUMBER
     mobs:
-      - ENTITY NUMBER # Decimals are supported.
+      - ENTITY MULTIPLIER # Decimals are supported.
     weapons:
-      - MATERIAL NUMBER
+      - MATERIAL MULTIPLIER
     worlds:
-      - WORLD_NAME NUMBER
+      - WORLD_NAME MULTIPLIER
 ```
+
+**GROUP\_NAME** is the name of the group. This will be used in the permission node economobs.groups\<group\_name>.
+
+**WEIGHT** is the weight of that group. The higher the number, the higher priority of that group.&#x20;
+
+**MULTIPLIER** is the multiplier an entity, weapon, or world provides within that group.&#x20;
+
+## Using the Format
 
 When you fill this out, it should look something like this:
 

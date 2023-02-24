@@ -16,7 +16,7 @@
   * [Permissions & Commands](free/economobs/permissions-and-commands.md)
   * [Files](free/economobs/files.md)
   * [Tutorials](free/economobs/tutorials/README.md)
-    * [Adding Multiple Rewards & New Weight (Chance) System](free/economobs/tutorials/adding-multiple-rewards-and-new-weight-chance-system.md)
+    * [Managing Rewards & Drop Weight](free/economobs/tutorials/managing-rewards-and-drop-weight.md)
     * [Managing Multiplier Groups](free/economobs/tutorials/managing-multiplier-groups.md)
 * [Econoblocks](free/econoblocks/README.md)
   * [Installation & Dependencies](free/econoblocks/untitled.md)
