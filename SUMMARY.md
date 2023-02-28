@@ -24,7 +24,7 @@
   * [Files](free/econoblocks/files.md)
   * [Frequently Asked Questions](free/econoblocks/frequently-asked-questions.md)
   * [Tutorials](free/econoblocks/tutorials/README.md)
-    * [Adding Chances](free/econoblocks/tutorials/adding-chances.md)
+    * [Managing Rewards & Drop Weight](free/econoblocks/tutorials/managing-rewards-and-drop-weight.md)
     * [Managing Multiplier Groups](free/econoblocks/tutorials/managing-multiplier-groups.md)
 
 ## Premium
