@@ -6,7 +6,7 @@ description: What you need to install the plugin.
 
 ## Download
 
-You can download Tracker from Spigot | [Songoda Marketplace](https://www.songoda.com/marketplace)
+You can buy and download Tracker from [Songoda Marketplace](https://www.songoda.com/marketplace)
 
 ## Version Support
 

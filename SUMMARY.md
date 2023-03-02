@@ -8,9 +8,6 @@
   * [Installation & Dependencies](free/tracker/installation-and-dependencies.md)
   * [Permissions & Commands](free/tracker/permissions-and-commands.md)
   * [Files](free/tracker/files.md)
-  * [Frequently Asked Questions](free/tracker/frequently-asked-questions.md)
-  * [Tutorials](free/tracker/tutorials/README.md)
-    * [Creating a Reward](free/tracker/tutorials/creating-a-reward.md)
 * [Economobs](free/economobs/README.md)
   * [Installation & Dependencies](free/economobs/installation-and-dependencies.md)
   * [Permissions & Commands](free/economobs/permissions-and-commands.md)
@@ -29,5 +26,11 @@
 
 ## Premium
 
-* [TrackerPlus](premium/trackerplus.md)
+* [TrackerPlus](premium/trackerplus/README.md)
+  * [Installation & Dependencies](premium/trackerplus/installation-and-dependencies.md)
+  * [Permissions & Commands](premium/trackerplus/permissions-and-commands.md)
+  * [Files](premium/trackerplus/files.md)
+  * [Frequently Asked Questions](premium/trackerplus/frequently-asked-questions.md)
+  * [Tutorials](premium/trackerplus/tutorials/README.md)
+    * [Creating a Reward](premium/trackerplus/tutorials/creating-a-reward.md)
 * [Challenges](premium/challenges.md)
