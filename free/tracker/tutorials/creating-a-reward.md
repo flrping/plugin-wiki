@@ -40,7 +40,7 @@ milestones:
                 commands: # <- The commands that will run
                     - "eco give %player% 100" # <- give the player 100 bucks.
                 enchants: # <- the enchantments that will apply to the item
-                    - "eco give %player% 100" # <- give the tool efficiency.
+                    - effeciency:1 # <- give the tool efficiency.
 ```
 
 ## Reward That Applies to Every Sword

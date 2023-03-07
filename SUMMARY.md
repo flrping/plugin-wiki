@@ -26,11 +26,11 @@
 
 ## Premium
 
-* [TrackerPlus](premium/trackerplus/README.md)
+* [TrackerPlus](premium/trackerplus.md)
   * [Installation & Dependencies](premium/trackerplus/installation-and-dependencies.md)
   * [Permissions & Commands](premium/trackerplus/permissions-and-commands.md)
   * [Files](premium/trackerplus/files.md)
-  * [Frequently Asked Questions](premium/trackerplus/frequently-asked-questions.md)
-  * [Tutorials](premium/trackerplus/tutorials/README.md)
-    * [Creating a Reward](premium/trackerplus/tutorials/creating-a-reward.md)
+  * [Frequently Asked Questions](free/tracker/frequently-asked-questions.md)
+  * [Tutorials](free/tracker/tutorials/README.md)
+    * [Creating a Reward](free/tracker/tutorials/creating-a-reward.md)
 * [Challenges](premium/challenges.md)
