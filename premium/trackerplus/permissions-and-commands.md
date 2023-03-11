@@ -1,7 +1,3 @@
----
-description: Lists of commands and permissions can be found here.
----
-
 # Permissions & Commands
 
 

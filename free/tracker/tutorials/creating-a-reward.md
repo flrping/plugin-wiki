@@ -24,7 +24,7 @@ milestones:
 ```
 
 {% hint style="info" %}
-These values are for 1.13+. Please use the correct values for anything below.
+These values are for 1.13+. Please use the correct values for anything below that version.
 {% endhint %}
 
 ## Diamond Pickaxe Example Reward
