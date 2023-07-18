@@ -6,6 +6,8 @@ description: Default files for Econoblocks.
 
 ```yaml
 # Configuration of Econoblocks. For help, visit https://docs.axelli.net/
+check-for-updates: true
+
 # Gamemode settings.
 gamemode:
   # Should people in creative mode get rewards?
@@ -40,7 +42,12 @@ checks:
     # How long will blocks be stored for until they expire? This will help clear up space in the database.
     # To disable this, just set it to 0. This is in days.
     expiry: 3
-
+    
+# Hook management.
+hooks:
+  # Enable ItemsAdder support? This adds the ability to earn money from custom blocks.
+  ItemsAdder: true
+  
 # Multiplier handling.
 # Down below are configurable multiplier groups.
 # When given permission, a user will gain specific multipliers.

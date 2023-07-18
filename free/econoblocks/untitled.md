@@ -15,3 +15,7 @@ You can download Econoblocks from Spigot and Songoda Marketplace.
 ## Dependencies
 
 **Econoblocks** currently depends on Vault and an appropriate Economy Manager to fully function. Meaning, you must have it installed in order for the plugin to work.
+
+Some other plugins you may add to enhance the experience:
+
+* ItemsAdder - Allow money to be gained from custom blocks. Also multiplier support with materials and groups.

@@ -32,7 +32,7 @@ GitHub: [https://github.com/flrping](https://github.com/flrping)
 
 Discord: [https://discord.gg/f3WE2F8](https://discord.gg/f3WE2F8)
 
-Documentation: [https://docs.axelli.net](https://docs.axelli.net/)
+Documentation: [https://wiki.flrp.dev](https://wiki.flrp.dev)
 
 Economobs: [https://www.spigotmc.org/resources/economobs.90004/](https://www.spigotmc.org/resources/economobs.90004/)
 
