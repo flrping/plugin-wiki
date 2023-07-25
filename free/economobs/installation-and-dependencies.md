@@ -21,4 +21,5 @@ Some other plugins you may use to enhance your experience are:&#x20;
 * StackMob - Allow the correct amount of money to be given when stacks die.
 * MythicMobs - Add custom amounts for your MythicMobs.
 * WildStacker - Allow the correct amount of money to be given when stacks die.
+* ItemsAdder - Add custom amounts to your ItemsAdder mobs and give custom multipliers for them.
 

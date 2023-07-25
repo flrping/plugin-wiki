@@ -7,8 +7,15 @@ description: Default files for Economobs.
 ### Config
 
 ```yaml
-# Configuration of Economobs. For help, visit https://docs.axelli.net/
+# Configuration of Economobs. For help, visit https://wiki.flrp.dev/
 config-version: 5
+
+# Allow the plugin to check for updates?
+check-for-updates: true
+
+# Allow players to be killed for money?
+# This system currently doesn't contain any countermeasures for repeat kills.
+reward-pvp: false
 
 # What stacker should the plugin look for?
 # Current list: NONE, WILDSTACKER, STACKMOB
@@ -41,6 +48,8 @@ hooks:
   LevelledMobs: true
   # Enable InfernalMobs support? Adds the ability to add money per modifier to the base amount (before applying multipliers).
   InfernalMobs: true
+  #Enable ItemsAdder support? Allows players to earn money from custom entities, and enabled multipliers for custom items and entities.
+  ItemsAdder: true
 
 # Multiplier handling.
 # Down below are configurable multiplier groups.
