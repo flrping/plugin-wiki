@@ -14,6 +14,10 @@ counter:
   # The tag that will appear on the items display.
   tag: "&8[&7%stats%&8]"
 
+  # Allow the counter to be formatted?
+  format:
+    enabled: true
+
   # Sounds that will play on mine or kill.
   sounds:
     enabled: true

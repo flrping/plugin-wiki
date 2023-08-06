@@ -41,3 +41,9 @@ Econoblocks: [https://www.spigotmc.org/resources/econoblocks.91161/](https://www
 Tracker: [https://www.spigotmc.org/resources/tracker.90727/](https://www.spigotmc.org/resources/tracker.90727/)
 
 Tracker+: [https://www.spigotmc.org/resources/tracker.108425/](https://www.spigotmc.org/resources/tracker.108425/)
+
+## Partners
+
+[BisectHosting](https://bisecthosting.com/flrp) - Save 25% on any of their servers for your first month with code "flrp"!
+
+![](https://www.bisecthosting.com/partners/custom-banners/a7f8ac53-d25f-40f4-a811-22b74c158990.webp)

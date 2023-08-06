@@ -57,7 +57,7 @@ milestones:
                     - "eco give %player% 100" # <- give the player 100 bucks.
 ```
 
-_****_
+
 
 {% hint style="info" %}
 The EVERY\_ keyword will work with most tool types.

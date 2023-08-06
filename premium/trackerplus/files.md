@@ -16,6 +16,10 @@ counter:
   # The tag that will appear on the items display.
   tag: "&8[&7%stats%&8]"
 
+  # Enable formatting the counter tag? Ex. 1234 will turn into 1.23k
+  format:
+    enabled: false
+
   # Sounds that will play on mine or kill.
   sounds:
     enabled: true
@@ -82,6 +86,12 @@ module:
     title: "&a&lTracker Module"
     lore:
       - "&7Add an objective tracker on your tool."
+      
+# This section is for limiting he max value an enchant can be upgraded to.
+# Remember to use the proper names for the minecraft version.
+limits:
+  enchantments:
+    - looting:10
 ```
 
 ```yaml
