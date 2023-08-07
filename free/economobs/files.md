@@ -17,6 +17,10 @@ check-for-updates: true
 # This system currently doesn't contain any countermeasures for repeat kills.
 reward-pvp: false
 
+# What currency should the plugin use?
+# Current list: VAULT (Default), PLAYER_POINTS, TOKEN_MANAGER
+economy: VAULT
+
 # What stacker should the plugin look for?
 # Current list: NONE, WILDSTACKER, STACKMOB
 stacker: NONE
