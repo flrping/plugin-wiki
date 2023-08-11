@@ -61,14 +61,14 @@ blocks:
 blocks:
   COAL_ORE:
    - '10 10' # $10 with a weight of 10
-   - '20 10' # $20 with a weight of 5 
+   - '20 5' # $20 with a weight of 5 
    
 # 15 total weight BUT set to 100 | $10 10% chance | $20 5% chance | $0 85% chance
 ```
 
 {% hint style="info" %}
 Total weight under 100 will assume **Total Weight = 100**\
-****This allows nothing to be dropped.
+This allows nothing to be dropped.
 {% endhint %}
 
 
