@@ -7,7 +7,7 @@ description: Default files for Economobs.
 ### Config
 
 ```yaml
-# Configuration of Economobs. For help, visit https://wiki.flrp.dev/
+# Configuration of Economobs. For help, visit https://wiki.flrp.dev
 config-version: 5
 
 # Allow the plugin to check for updates?
@@ -22,7 +22,7 @@ reward-pvp: false
 economy: VAULT
 
 # What stacker should the plugin look for?
-# Current list: NONE, WILDSTACKER, STACKMOB
+# Current list: NONE (Default), WILDSTACKER, STACKMOB, ULTIMATESTACKER, ROSESTACKER
 stacker: NONE
 
 # Message handling.
