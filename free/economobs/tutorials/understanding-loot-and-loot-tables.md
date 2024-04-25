@@ -42,7 +42,7 @@ TABLE_NAME:
 ```
 
 {% hint style="info" %}
-To explain weight further, a weight is a piece of distribution.\
+Weight is a piece of distribution.\
 \
 When the plugin rolls and picks an outcome, it uses "total weight" - adding all the reward weights together.\
 \
