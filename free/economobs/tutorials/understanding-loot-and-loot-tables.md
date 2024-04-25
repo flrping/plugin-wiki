@@ -2,7 +2,7 @@
 description: Explaining loot and loot tables
 ---
 
-# Understanding Loot
+# Understanding Loot and Loot Tables
 
 ## Introduction
 
@@ -15,30 +15,30 @@ Let's take a look at how loot tables are structured and made.
 Here's a bit of the default loot table **money\_table** that is generated with a fresh install of the plugin.
 
 ```yaml
-  money_table:
-    weight: 100
-    drops:
-      1:
-        weight: 60
-        type: ECONOMY
-        from: VAULT
-        min: 10
-        max: 20
+money_table:
+  weight: 100
+  drops:
+    '1':
+      weight: 60
+      type: ECONOMY
+      from: VAULT
+      min: 10
+      max: 20
 ```
 
 If you are experienced with Economobs it may seem familiar. Loot now has way more options for you to use and make your servers unique. Here is the breakdown and available options.
 
 ```yaml
-  TABLE_NAME:
-    weight: 100
-    drops:
-      LOOT_ID:
-        weight: 60
-        type: ECONOMY
-        from: VAULT 
-        min: 10
-        max: 20
-        message: "Set custom message here"
+TABLE_NAME:
+  weight: 100
+  drops:
+    LOOT_ID:
+      weight: 60
+      type: ECONOMY
+      from: VAULT
+      min: 10
+      max: 20
+      message: Set custom message here
 ```
 
 {% hint style="info" %}
@@ -48,17 +48,18 @@ When the plugin rolls and picks an outcome, it uses "total weight" - adding all 
 \
 For example: A reward with a weight of 20 in a total weight of 200, means it will have a 10% chance of dropping said reward.\
 \
-These weight values **do not** need to be within a 100 total weight. Use this weight system to your advantage.
+These weight values **do not** need to be within a 100 total weight. Use this weight system to your advantage.\
+\
+_When no weight is defined, it will assume 100 weight._ \
+_When the total is under 100, this allows rewards to not be given._
 {% endhint %}
 
-**TABLE\_NAME** is the name of the loot table. These must be unique across your tables; you will be using this name to assign your mobs loot tables.\
-**LOOT\_ID** is the id of the loot inside the table, these must be unique within the table.\
-**TYPE** is the type of loot. This can be ECONOMY, ITEM, CUSTOM\_ITEM, POTION, or COMMAND\
-**FROM** defines where the loot is sourced from. When it comes to economy, this should be an Economy hook. When it comes to custom items, it should be a custom item hook.\
-**MIN** and **MAX** are the ranges of the amount the loot will distribute.\
-**MESSAGE** sets a custom message for the loot. If not defined, the plugin will use the message in language.yml.
-
-Here are some examples of loot you may create.
+* TABLE\_NAME - name of the loot table. These must be unique across your tables; you will be using this name to assign your mobs loot tables.
+* LOOT\_ID - id of the loot inside the table, these must be unique within the table.\
+  TYPE is the type of loot. This can be ECONOMY, ITEM, CUSTOM\_ITEM, POTION, or COMMAND
+* FROM **-** where the loot is sourced from. When it comes to economy, this should be an Economy hook. When it comes to custom items, it should be a custom item hook.
+* MIN and MAX - the ranges of the amount the loot will distribute.
+* MESSAGE **-** sets a custom message for the loot. If not defined, the plugin will use the message in language.yml.
 
 ## Examples
 
@@ -68,7 +69,7 @@ Basic economy reward that will come from your server's main economy.
 example_table:
   weight: 100
   drops:
-    "1":
+    '1':
       weight: 60
       type: ECONOMY
       from: VAULT
@@ -82,7 +83,7 @@ Item reward that drops an enchanted, named pickaxe.&#x20;
 example_table:
   weight: 100
   drops:
-    "1":
+    '1':
       weight: 10
       type: ITEM
       material: DIAMOND_PICKAXE
@@ -104,7 +105,7 @@ Custom item reward that drops ruby shards from the plugin ItemsAdder.
 example_table:
   weight: 100
   drops:
-    "1":
+    '1':
       weight: 10
       type: CUSTOM_ITEM
       from: ITEMS_ADDER
@@ -119,7 +120,7 @@ Potion effect reward that gives you Speed 2.
 example_table:
   weight: 100
   drops:
-    "1":
+    '1':
       weight: 5
       type: POTION
       effect: SPEED
@@ -134,7 +135,7 @@ A reward that runs a command.
 example_table:
   weight: 100
   drops:
-    "1":
+    '1':
       weight: 10
       type: COMMAND
       min: 1
