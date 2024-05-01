@@ -24,4 +24,5 @@ Some other plugins you may use to enhance your experience are:&#x20;
 * ItemsAdder - Add custom amounts to your ItemsAdder mobs and give custom multipliers for them.
 * TokenManager - Supported economy.
 * PlayerPoints - Supported economy.
+* PlaceholderAPI - Multiplier placeholders.
 

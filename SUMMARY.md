@@ -10,7 +10,7 @@
   * [Files](free/tracker/files.md)
 * [Economobs](free/economobs/README.md)
   * [Installation & Dependencies](free/economobs/installation-and-dependencies.md)
-  * [Permissions & Commands](free/economobs/permissions-and-commands.md)
+  * [Permissions, Commands, & Placeholders](free/economobs/permissions-and-commands.md)
   * [Files](free/economobs/files.md)
   * [Tutorials](free/economobs/tutorials/README.md)
     * [Understanding Loot and Loot Tables](free/economobs/tutorials/understanding-loot-and-loot-tables.md)
