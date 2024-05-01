@@ -4,16 +4,7 @@ description: Lists of commands and permissions can be found here.
 
 # Permissions, Commands, & Placeholders
 
-| Command                                                                                                     | Permission           | Description                              |
-| ----------------------------------------------------------------------------------------------------------- | -------------------- | ---------------------------------------- |
-| /economobs                                                                                                  | default              | Brings up an in-game help guide.         |
-| /economobs toggle                                                                                           | default              | Toggles messaging features.              |
-| /economobs profile \<player>                                                                                | economobs.profile    | Checks the multiplier profile of a user. |
-| /economobs check \<mob/custom> \<entity>                                                                    | economobs.check      | Checks the loot tables of an entity.     |
-| /economobs multiplier add \<user> \<entity/tool/world/custom\_entity/custom\_tool> \<context> \<multiplier> | economobs.multiplier | Adds a multiplier to a user.             |
-| /economobs multiplier remove \<user> \<entity/tool/world/custom\_entity/custom\_tool> \<context>            | economobs.multiplier | Removes a multiplier from a user.        |
-| /economobs reload                                                                                           | economobs.reload     | Reloads the plugin.                      |
-| All                                                                                                         | economobs.admin      | Gives access to all commands.            |
+<table data-header-hidden><thead><tr><th width="217">Command</th><th width="193">Permission</th><th>Description</th></tr></thead><tbody><tr><td>Command</td><td>Permission</td><td>Description</td></tr><tr><td>/economobs</td><td>default</td><td>Brings up an in-game help guide.</td></tr><tr><td>/economobs toggle</td><td>default</td><td>Toggles messaging features.</td></tr><tr><td>/economobs profile &#x3C;player></td><td>economobs.profile</td><td>Checks the multiplier profile of a user.</td></tr><tr><td>/economobs check &#x3C;mob/custom> &#x3C;entity></td><td>economobs.check</td><td>Checks the loot tables of an entity.</td></tr><tr><td>/economobs multiplier add &#x3C;user> &#x3C;entity/tool/world/custom_entity/custom_tool> &#x3C;context> &#x3C;multiplier></td><td>economobs.multiplier</td><td>Adds a multiplier to a user.</td></tr><tr><td>/economobs multiplier remove &#x3C;user> &#x3C;entity/tool/world/custom_entity/custom_tool> &#x3C;context></td><td>economobs.multiplier</td><td>Removes a multiplier from a user.</td></tr><tr><td>/economobs reload</td><td>economobs.reload</td><td>Reloads the plugin.</td></tr><tr><td>All</td><td>economobs.admin</td><td>Gives access to all commands.</td></tr></tbody></table>
 
 | Permission               | Description                              |
 | ------------------------ | ---------------------------------------- |
