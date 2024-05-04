@@ -18,4 +18,10 @@ You can download Econoblocks from Spigot and Songoda Marketplace.
 
 Some other plugins you may add to enhance the experience:
 
-* ItemsAdder - Allow money to be gained from custom blocks. Also multiplier support with materials and groups.
+* ItemsAdder
+* Oraxen
+* MMOItems
+* TokenManager
+* PlayerPoints
+* DecentHolograms
+* PlaceholderAPI

@@ -25,8 +25,12 @@
   * [Files](free/econoblocks/files.md)
   * [Frequently Asked Questions](free/econoblocks/frequently-asked-questions.md)
   * [Tutorials](free/econoblocks/tutorials/README.md)
-    * [Managing Rewards & Drop Weight](free/econoblocks/tutorials/managing-rewards-and-drop-weight.md)
+    * [Understanding Loot and Loot Tables](free/econoblocks/tutorials/understanding-loot-and-loot-tables.md)
+    * [Assigning Loot Tables](free/econoblocks/tutorials/assigning-loot-tables.md)
+    * [Loot Table Conditionals and Overrides](free/econoblocks/tutorials/loot-table-conditionals-and-overrides.md)
     * [Managing Multiplier Groups](free/econoblocks/tutorials/managing-multiplier-groups.md)
+    * [1.0.0 Tutorials](free/econoblocks/tutorials/1.0.0-tutorials/README.md)
+      * [Managing Rewards & Drop Weight](free/econoblocks/tutorials/1.0.0-tutorials/managing-rewards-and-drop-weight.md)
 
 ## Premium
 
