@@ -12,7 +12,7 @@ Welcome to our documentation website. Here you can find most things about our pr
 
 ## Getting Started
 
-To get started click on the tab that you have questions about, and see if it is answered there. Be sure to check every section, especially if you find yourself confused about something. Your questions are likely to be solved.
+To get started click on the tab that you have questions about and see if it is answered there. Be sure to check every section, especially if you find yourself confused about something. Your questions are likely to be solved.
 
 If you have questions that aren't answered here, please reach out to us on our [Discord](https://discord.gg/f3WE2F8) server.
 
@@ -46,4 +46,10 @@ Tracker+: [https://www.spigotmc.org/resources/tracker.108425/](https://www.spigo
 
 [BisectHosting](https://bisecthosting.com/flrp) - Save 25% on any of their servers for your first month with code "flrp"!
 
-![](https://www.bisecthosting.com/partners/custom-banners/a7f8ac53-d25f-40f4-a811-22b74c158990.webp)
+[NordVPN](https://nordvpn.flrp.dev) - Save up to 69% off 2-year plans + a Saily eSIM data gift!\
+\
+
+
+<figure><img src=".gitbook/assets/faster-than-ever-300x250.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/d86964f2f036261e73abe6e8525f7eb883d31b84.webp" alt=""><figcaption></figcaption></figure>
